@@ -1,0 +1,31 @@
+.buttons {
+    display: grid;
+
+}
+
+.hangman_buttons {
+    font-size: 30px;
+    text-align: center;
+}
+
+#centered_buttons {
+    text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+    .buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 780px) {
+    .buttons {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (min-width: 781px) {
+    .buttons {
+        grid-template-columns: repeat(13, 1fr);
+    }
+}

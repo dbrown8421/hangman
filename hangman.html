@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link href="buttons.css" rel="stylesheet" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload = "make_hangman()">
+        <h1 style="text-align: center;">DeAndre's Hangman (Website Edition)</h1>
+        <br>
+        <br>
+        <br>
+        <p id ="display_phrase" style="text-align: center; font-size: 30px;">Phrase goes here</p>
+        <br>
+        <br>
+        <br>
+        <p id ="feedback_phrase" style="text-align: center; font-size: 20px;">Click a letter to guess the phrase!</p>
+        <br>
+        <br>
+        <br>
+        <div class = "buttons">
+            <div id = "A" onclick = "guess('A')" class = "hangman_buttons">A</div>
+            <div id = "B" onclick = "guess('B')" class = "hangman_buttons">B</div>
+            <div id = "C" onclick = "guess('C')" class = "hangman_buttons">C</div>
+            <div id = "D" onclick = "guess('D')" class = "hangman_buttons">D</div>
+            <div id = "E" onclick = "guess('E')" class = "hangman_buttons">E</div>
+            <div id = "F" onclick = "guess('F')" class = "hangman_buttons">F</div>
+            <div id = "G" onclick = "guess('G')" class = "hangman_buttons">G</div>
+            <div id = "H" onclick = "guess('H')" class = "hangman_buttons">H</div>
+            <div id = "I" onclick = "guess('I')" class = "hangman_buttons">I</div>
+            <div id = "J" onclick = "guess('J')" class = "hangman_buttons">J</div>
+            <div id = "K" onclick = "guess('K')" class = "hangman_buttons">K</div>
+            <div id = "L" onclick = "guess('L')" class = "hangman_buttons">L</div>
+            <div id = "M" onclick = "guess('M')" class = "hangman_buttons">M</div>
+            <div id = "N" onclick = "guess('N')" class = "hangman_buttons">N</div>
+            <div id = "O" onclick = "guess('O')" class = "hangman_buttons">O</div>
+            <div id = "P" onclick = "guess('P')" class = "hangman_buttons">P</div>
+            <div id = "Q" onclick = "guess('Q')" class = "hangman_buttons">Q</div>
+            <div id = "R" onclick = "guess('R')" class = "hangman_buttons">R</div>
+            <div id = "S" onclick = "guess('S')" class = "hangman_buttons">S</div>
+            <div id = "T" onclick = "guess('T')" class = "hangman_buttons">T</div>
+            <div id = "U" onclick = "guess('U')" class = "hangman_buttons">U</div>
+            <div id = "V" onclick = "guess('V')" class = "hangman_buttons">V</div>
+            <div id = "W" onclick = "guess('W')" class = "hangman_buttons">W</div>
+            <div id = "X" onclick = "guess('X')" class = "hangman_buttons">X</div>
+            <div id = "Y" onclick = "guess('Y')" class = "hangman_buttons">Y</div>
+            <div id = "Z" onclick = "guess('Z')" class = "hangman_buttons">Z</div>
+        </div>
+        <br>
+        <br>
+        <!-- <input type="text" id= "solve_input">
+        <input type="submit" id= "solve_button" onclick="solve_hangman(solve_input)">
+        -->
+        <div id="centered_buttons">
+            <button onclick="solve_prompt()">Solve</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </body>
+    <script src="phrases.js"></script>
+    <script src="hangman.js"></script>
+</html>
