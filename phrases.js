@@ -299,4 +299,150 @@ var phrase110 = {
     category: 2
 }
 
-var phrases2 = [phrase101, phrase102, phrase103, phrase104, phrase105, phrase106, phrase107, phrase108, phrase109, phrase110];
+var phrase111 = {
+    id: 111,
+    phrase: "Abide With Me",
+    category: 2
+}
+
+var phrase112 = {
+    id: 112,
+    phrase: "The Day Thou Gavest",
+    category: 2
+}
+
+var phrase113 = {
+    id: 113,
+    phrase: "How Great Thou Art",
+    category: 2
+}
+
+var phrase114 = {
+    id: 114,
+    phrase: "I Sing the Mighty Power of God",
+    category: 2
+}
+
+var phrase115 = {
+    id: 115,
+    phrase: "This Is My Father's World",
+    category: 2
+}
+
+var phrase116 = {
+    id: 116,
+    phrase: "All Things Bright and Beautiful",
+    category: 2
+}
+
+var phrase117 = {
+    id: 117,
+    phrase: "God Will Take Care of You",
+    category: 2
+}
+
+var phrase118 = {
+    id: 118,
+    phrase: "Great Is Thy Faithfulness",
+    category: 2
+}
+
+var phrase119 = {
+    id: 119,
+    phrase: "Amazing Grace",
+    category: 2
+}
+
+var phrase120 = {
+    id: 120,
+    phrase: "Marvelous Grace",
+    category: 2
+}
+
+var phrase121 = {
+    id: 121,
+    phrase: "O Come, O Come, Immanuel",
+    category: 2
+}
+
+var phrase122 = {
+    id: 122,
+    phrase: "The First Noel",
+    category: 2
+}
+
+var phrase123 = {
+    id: 123,
+    phrase: "Go, Tell It On the Mountain",
+    category: 2
+}
+
+var phrase124 = {
+    id: 124,
+    phrase: "Hark! the Herald Angels Sing",
+    category: 2
+}
+
+var phrase125 = {
+    id: 125,
+    phrase: "Away in a Manger",
+    category: 2
+}
+
+var phrase126 = {
+    id: 126,
+    phrase: "Joy to the World",
+    category: 2
+}
+
+var phrase127 = {
+    id: 127,
+    phrase: "O Come, All Ye Faithful",
+    category: 2
+}
+
+var phrase128 = {
+    id: 128,
+    phrase: "O Little Town of Bethlehem",
+    category: 2
+}
+
+var phrase129 = {
+    id: 129,
+    phrase: "Good Christians, Now Rejoice",
+    category: 2
+}
+
+var phrase130 = {
+    id: 130,
+    phrase: "We Three Kings",
+    category: 2
+}
+
+var phrase131 = {
+    id: 131,
+    phrase: "What Child Is This",
+    category: 2
+}
+
+var phrase132 = {
+    id: 132,
+    phrase: "Angels We Have Heard on High",
+    category: 2
+}
+
+var phrase133 = {
+    id: 133,
+    phrase: "Silent Night, Holy Night",
+    category: 2
+}
+
+var phrase134 = {
+    id: 134,
+    phrase: "Tell Me the Story of Jesus",
+    category: 2
+}
+var phrases2 = [phrase101, phrase102, phrase103, phrase104, phrase105, phrase106, phrase107, phrase108, phrase109, phrase110,
+                phrase111, phrase112, phrase113, phrase114, phrase115, phrase116, phrase117, phrase118, phrase119, phrase120,
+                phrase121, phrase122, phrase123, phrase124, phrase125, phrase126, phrase127, phrase128, phrase129, phrase130, 
+                phrase131, phrase132, phrase133, phrase134];
